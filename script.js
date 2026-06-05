@@ -1,113 +1,113 @@
-const quizData = [
+﻿const quizData = [
   {
     id: 1,
-    questionImage: "../ホッケー16ファール_文字なし/1.jpg",
-    answerImage: "../ホッケー16ファール/1.jpg",
+    questionImage: "./images_question/1.jpg",
+    answerImage: "./images_answer/1.jpg",
     answer: "キッキング",
     description: "脚でボールを蹴ったとき"
   },
   {
     id: 2,
-    questionImage: "../ホッケー16ファール_文字なし/2.jpg",
-    answerImage: "../ホッケー16ファール/2.jpg",
+    questionImage: "./images_question/2.jpg",
+    answerImage: "./images_answer/2.jpg",
     answer: "ハッキング",
     description: "身体に当たったとき"
   },
   {
     id: 3,
-    questionImage: "../ホッケー16ファール_文字なし/3.jpg",
-    answerImage: "../ホッケー16ファール/3.jpg",
+    questionImage: "./images_question/3.jpg",
+    answerImage: "./images_answer/3.jpg",
     answer: "スライディング",
     description: "転んだり、手や足がついたとき"
   },
   {
     id: 4,
-    questionImage: "../ホッケー16ファール_文字なし/4.jpg",
-    answerImage: "../ホッケー16ファール/4.jpg",
+    questionImage: "./images_question/4.jpg",
+    answerImage: "./images_answer/4.jpg",
     answer: "ハイスティック",
     description: "膝より上にブレードが上がったとき"
   },
   {
     id: 5,
-    questionImage: "../ホッケー16ファール_文字なし/5.jpg",
-    answerImage: "../ホッケー16ファール/5.jpg",
+    questionImage: "./images_question/5.jpg",
+    answerImage: "./images_answer/5.jpg",
     answer: "クラッシング",
     description: "スティックをたたいたとき"
   },
   {
     id: 6,
-    questionImage: "../ホッケー16ファール_文字なし/6.jpg",
-    answerImage: "../ホッケー16ファール/6.jpg",
+    questionImage: "./images_question/6.jpg",
+    answerImage: "./images_answer/6.jpg",
     answer: "フッキング",
     description: "相手の股の間にスティックを入れたとき"
   },
   {
     id: 7,
-    questionImage: "../ホッケー16ファール_文字なし/7.jpg",
-    answerImage: "../ホッケー16ファール/7.jpg",
+    questionImage: "./images_question/7.jpg",
+    answerImage: "./images_answer/7.jpg",
     answer: "シャフトボール",
     description: "膝より上のボールをシャフトで操作したとき"
   },
   {
     id: 8,
-    questionImage: "../ホッケー16ファール_文字なし/8.jpg",
-    answerImage: "../ホッケー16ファール/8.jpg",
+    questionImage: "./images_question/8.jpg",
+    answerImage: "./images_answer/8.jpg",
     answer: "スローイング",
     description: "スティックを落としたとき"
   },
   {
     id: 9,
-    questionImage: "../ホッケー16ファール_文字なし/9.jpg",
-    answerImage: "../ホッケー16ファール/9.jpg",
+    questionImage: "./images_question/9.jpg",
+    answerImage: "./images_answer/9.jpg",
     answer: "ダブルストローク",
     description: "フリーストロークで二回触る。ボールをヒットしないで打ったとき"
   },
   {
     id: 10,
-    questionImage: "../ホッケー16ファール_文字なし/10.jpg",
-    answerImage: "../ホッケー16ファール/10.jpg",
+    questionImage: "./images_question/10.jpg",
+    answerImage: "./images_answer/10.jpg",
     answer: "オーバータイム",
     description: "フリーストローク時に笛の合図から3秒以内に打たなかったとき"
   },
   {
     id: 11,
-    questionImage: "../ホッケー16ファール_文字なし/11.jpg",
-    answerImage: "../ホッケー16ファール/11.jpg",
+    questionImage: "./images_question/11.jpg",
+    answerImage: "./images_answer/11.jpg",
     answer: "ステップインオフェンス",
     description: "ゴールエリア内に攻撃側が入ったとき"
   },
   {
     id: 12,
-    questionImage: "../ホッケー16ファール_文字なし/12.jpg",
-    answerImage: "../ホッケー16ファール/12.jpg",
+    questionImage: "./images_question/12.jpg",
+    answerImage: "./images_answer/12.jpg",
     answer: "ステップインディフェンス",
     description: "ゴールエリア内に防御側が入ったとき"
   },
   {
     id: 13,
-    questionImage: "../ホッケー16ファール_文字なし/13.jpg",
-    answerImage: "../ホッケー16ファール/13.jpg",
+    questionImage: "./images_question/13.jpg",
+    answerImage: "./images_answer/13.jpg",
     answer: "スティックインゴール",
     description: "ゴール内にスティックを入れてプレーしたとき"
   },
   {
     id: 14,
-    questionImage: "../ホッケー16ファール_文字なし/14.jpg",
-    answerImage: "../ホッケー16ファール/14.jpg",
+    questionImage: "./images_question/14.jpg",
+    answerImage: "./images_answer/14.jpg",
     answer: "プッシングゴール",
     description: "ゴールを動かしたり、握ってプレーしたとき"
   },
   {
     id: 15,
-    questionImage: "../ホッケー16ファール_文字なし/15.jpg",
-    answerImage: "../ホッケー16ファール/15.jpg",
+    questionImage: "./images_question/15.jpg",
+    answerImage: "./images_answer/15.jpg",
     answer: "チャージング",
     description: "相手を蹴る・掴む・押す・タックルしたとき"
   },
   {
     id: 16,
-    questionImage: "../ホッケー16ファール_文字なし/16.jpg",
-    answerImage: "../ホッケー16ファール/16.jpg",
+    questionImage: "./images_question/16.jpg",
+    answerImage: "./images_answer/16.jpg",
     answer: "オブストラクション",
     description: "故意、粗暴な行為、暴言、フェンス、ゴールを叩く。危険な行為。"
   }
@@ -455,3 +455,4 @@ nextButton.addEventListener("click", () => {
     showQuestion();
   }
 });
+
